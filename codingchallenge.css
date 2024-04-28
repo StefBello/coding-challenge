@@ -1,0 +1,73 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.container {
+    width: 1000px;
+    height: 700px;
+    color: white;
+    margin: 100px auto auto;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 2%;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family:"Gill Sans", sans-serif;;
+}
+
+img {
+    width: 300px;
+}
+
+header,nav {
+    text-align: center;
+}
+
+h1 {
+    color: lime;
+    
+}
+
+h2 {
+    background-color: lime;
+    padding-bottom: 8px;
+}
+
+button {
+    border: 1px solid black;
+    background-color: white;
+}
+
+h3 {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+section > div::before {
+    content: "\21A6";
+}
+
+#a,#b,#c {
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+#a {
+    width: 300px;
+    background-color: rgba(255, 166, 0, 0.75); 
+    color: rgb(255, 166, 0, 0); 
+}
+
+#b {
+    width: 500px;
+    background-color: rgba(0, 255, 0, 0.75);  
+    color: rgba(0, 255, 0, 0);
+}
+
+#c {
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.75); 
+    color: rgba(255, 0, 0, 0); 
+}
